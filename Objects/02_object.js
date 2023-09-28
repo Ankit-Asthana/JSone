@@ -40,3 +40,17 @@ console.log(Object.values(obj)); // to get the values of the objects
 console.log(Object.entries(obj)); // to get the key value of the object
 console.log(obj.hasOwnProperty('namee')); // to get that the object have the key in it or not
 console.log(obj.hasOwnProperty('firatname'));
+
+
+
+console.log("Jai shree Ram");
+const course= {
+    name : "Java Backend",
+    price : 4000,
+    instructor: "Ankit"
+}
+
+// course.instructor()
+
+const {instructor}=course; //de-structuring of objects in JS , it will get the instructor from the course object.
+console.log(instructor);
