@@ -9,7 +9,7 @@ if(true){
 }
 // console.log(a);
 // console.log(b);
-console.log(a);
+console.log(a);  //the var can be accessed outside the scope that's why we will not use this variable commonly
 
 
 
